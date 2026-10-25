@@ -1,0 +1,17 @@
+@"
+*.cf
+*.cfu
+*.dt
+*.log
+*.tmp
+*.cfl
+*.erf
+*.epf
+
+/1Cv8Log/
+/1Cv8FTxt/
+/1Cv8Tmp/
+/Temp/
+
+ConfigDumpInfo.xml
+"@ | Out-File -Encoding utf8 .gitignore
